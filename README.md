@@ -1,6 +1,6 @@
 # FlipperzeroNRFJammer
 
-This Flipperzero NRF24 Jammer is a fork of the original version of [huuck/FlipperZeroNRFJammer](github.com/huuck/FlipperZeroNRFJammer) for the 2.4 Ghz spectrum.<br/> 
+This Flipperzero NRF24 Jammer is a fork of the original version of [huuck/FlipperZeroNRFJammer](https://github.com/huuck/FlipperZeroNRFJammer) for the 2.4 Ghz spectrum.<br/> 
 Tested on the Momentum Firmware.
 
 ## 🔊 Jamming Modes
