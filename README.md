@@ -3,7 +3,7 @@
 This Flipperzero NRF24 Jammer is a fork of the original version of [huuck/FlipperZeroNRFJammer](github.com/huuck/FlipperZeroNRFJammer) for the 2.4 Ghz spectrum.<br/> 
 Tested on the Momentum Firmware.
 
-# 🔊 Jamming Modes
+## 🔊 Jamming Modes
 
 - **Bluetooth**: This mode performs frequency hopping across 79 channels, ranging from **2.402 GHz to 2.480 GHz**, with each channel spaced 1 MHz apart — matching the classic Bluetooth specification.
 
@@ -11,7 +11,7 @@ Tested on the Momentum Firmware.
 
 - **full**: This mode performs a wide sweep across the entire **2.4 GHz ISM band**, from **2.400 GHz up to 2.525 GHz**, jamming potentially any protocol using this spectrum.
 
-# 🚀 How to Use
+## 🚀 How to Use
 
 1. Compile the app and place the output `.fap` file inside `apps/GPIO/NRF24`
 2. Connect your **NRF24** module to the Flipper’s **GPIO pins**
