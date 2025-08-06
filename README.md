@@ -1,6 +1,6 @@
 # FlipperzeroNRFJammer
 
-This Flipperzero NRF24 Jammer is a fork of the original version of [huuck/FlipperZeroNRFJammer](https://github.com/huuck/FlipperZeroNRFJammer) for the 2.4 Ghz spectrum.<br/> 
+This Flipperzero NRF24 Jammer is a fork of the original version of [huuck/FlipperZeroNRFJammer](https://github.com/huuck/FlipperZeroNRFJammer) for the 2.4 GHz spectrum.<br/> 
 Tested on the Momentum Firmware.
 
 ## 🔊 Jamming Modes
@@ -11,14 +11,18 @@ Tested on the Momentum Firmware.
 
 - **full**: This mode performs a wide sweep across the entire **2.4 GHz ISM band**, from **2.400 GHz up to 2.525 GHz**, jamming potentially any protocol using this spectrum.
 
+## UI
+
+![App Appearance](img/demo.gif)
+
 ## 🚀 How to Use
 
-1. Compile the app and place the output `.fap` file inside `apps/GPIO/NRF24`
+1. Compile the app or download the precompiled `.fap` file and place it inside `apps/GPIO/NRF24`
 2. Connect your **NRF24** module to the Flipper’s **GPIO pins**
 3. Enable **5V power** on the GPIO
 4. Launch the **NRF Jammer** app on your Flipper
-5. Use **Up/Down** to switch between jamming modes
-6. Press **OK** to start jamming
+5. Use **Left/Right** to switch between jamming modes
+6. Press **OK** to Start/Stop jamming
 7. Press **Back** to stop/exit
 
 ## 🙏 Credits
